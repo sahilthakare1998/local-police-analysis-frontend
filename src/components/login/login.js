@@ -16,6 +16,7 @@ const NormalLoginForm = (props) => {
   return (
     <div className="App">
       <header className="App-header">
+        <h3>Local Police Data Analysis</h3>
         <Form
           name="normal_login"
           className="login-form"
