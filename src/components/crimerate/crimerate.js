@@ -23,7 +23,6 @@ const CrimeRate = () => {
   const [tableData, setTableData] = useState([]);
 
   useEffect(() => {
-    getGraphDetails();
     getTableDetails();
   }, []);
 
@@ -31,7 +30,7 @@ const CrimeRate = () => {
 
   useEffect(() => {
     getGraphDetails();
-  }, [dateFilter]);
+  });
 
   const getGraphDetails = async () => {
     let dateGraphData = ["x"];
